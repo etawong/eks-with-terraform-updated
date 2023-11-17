@@ -1,5 +1,6 @@
 provider "aws" {
   region = "us-west-2"
+  #profile = "eks_master" ....The iam user that will create the cluster
 }
 
 terraform {
